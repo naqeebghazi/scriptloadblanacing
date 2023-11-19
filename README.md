@@ -42,3 +42,18 @@ Loadbalancer:
 
 The 2nd and 3rd IP address + Port are that of webserver1 and webserver2 respectively.
 
+Webservers successful installation output:
+![](https://github.com/naqeebghazi/scriptloadblanacing/blob/main/images/resultsafterinstallinginstalshOnWebservers1&2.png?raw=true)
+
+Loadbalancer successful installation output:
+![](https://github.com/naqeebghazi/scriptloadblanacing/blob/main/images/LBsuccess_nginxsh.png?raw=true)
+
+To conclude and confirm all is working go to the Public IP + Port number of:
+- Webserver1
+- Webserver2
+
+And the public IP only of:
+- loadbalancer
+
+
+Webserver1 and 2:
