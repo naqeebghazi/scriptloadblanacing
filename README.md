@@ -57,3 +57,8 @@ And the public IP only of:
 
 
 Webserver1 and 2:
+![](https://github.com/naqeebghazi/scriptloadblanacing/blob/main/images/webservers1&2inBrowser.png?raw=true)
+
+Loadbalancer in browser showing contents of Webser1 and Webser2 respectively:
+![](https://github.com/naqeebghazi/scriptloadblanacing/blob/main/images/loadbalancerBrowserwebserv1.png?raw=true)
+![](https://github.com/naqeebghazi/scriptloadblanacing/blob/main/images/loadbalancerBrowserwebserv2.png?raw=true)
