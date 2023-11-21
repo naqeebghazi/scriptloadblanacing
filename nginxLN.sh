@@ -54,6 +54,4 @@ fi
 
 sudo nginx -t   #This test the nginx config file
 
-sudo systemctl restart nginx    #Must restart nginx to enable LB config changes
-
-
+sudo systemctl restart nginx    #Must restart nginx to enable LB config changes.
