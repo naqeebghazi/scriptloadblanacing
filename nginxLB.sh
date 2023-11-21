@@ -24,8 +24,8 @@ set -e # exit the script if there is an error
 set -o pipefail # exit the script when there is a pipe failure
 
 
-sudo apt update -y && sudo apt install nginx -y
-sudo systemctl status nginx
+sudo apt update -y && sudo apt install nginx -y     # Updates the pkg manager before installing nginx
+sudo systemctl status nginx                         # Must show a green active running signal
 
 if [[ $? -eq 0 ]]; then
     sudo touch /etc/nginx/conf.d/loadbalancer.conf
@@ -52,8 +52,8 @@ if [[ $? -eq 0 ]]; then
     } " > /etc/nginx/conf.d/loadbalancer.conf
 fi
 
-sudo nginx -t
+sudo nginx -t   #This test the nginx config file
 
-sudo systemctl restart nginx
+sudo systemctl restart nginx    #Must restart nginx to enable LB config changes
 
 
